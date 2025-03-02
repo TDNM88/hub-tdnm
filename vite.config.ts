@@ -5,7 +5,7 @@ export default defineConfig({
   plugins: [react()],
   resolve: {
     alias: {
-      '@': '/src', // Tùy chọn: tạo alias cho thư mục src
+      '@': '/src',
     },
   },
 });
